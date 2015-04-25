@@ -1255,7 +1255,7 @@ function createHttpBackendMock($rootScope, $timeout, $delegate, $browser) {
       };
     }
 
-    definitions.push(definition);
+    definitions.unshift(definition);
     return chain;
   };
 
