@@ -1383,7 +1383,7 @@ function createHttpBackendMock($rootScope, $timeout, $delegate, $browser) {
           }
         };
 
-    expectations.push(expectation);
+    expectations.unshift(expectation);
     return chain;
   };
 
